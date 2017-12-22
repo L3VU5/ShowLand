@@ -1,0 +1,125 @@
+/* Scss Document */
+
+body {
+	background: #0b0b0b;
+	font-family: Open Sans, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size:14px;
+	a {
+	color: white;
+	text-decoration: none;
+		
+		&:hover{
+		color: #b9b9b9;
+		}
+	}
+	.bgd{
+		width: 1200px;
+		margin: 50px auto;
+		background-color: #121212;
+		padding: 65px 37px;
+		border-radius: 15px;
+		.btn-warning {
+			background-color: #7d104e;
+			border-color: #30051e;
+			&:hover{
+				background-color:#60093a;
+			}
+		}
+		img{
+			background-color: #333;
+			border: 1px solid #060606;
+		}
+		.movies{
+			a{
+				display: inline-grid;
+				margin-bottom:25px;
+				text-align: center;
+			}
+		}
+		.mov{
+			color:#bfbfbf;
+			p{
+				color:#fff;
+			}
+			div{
+				margin-bottom: 5px;
+			}
+			.title{
+				color: #e8002d;
+			}
+			span{
+				color:#fff;
+			}
+			.stars{
+				overflow: hidden;
+			}
+		}
+	}
+	
+	.jumbotron {
+  		padding: 10px 30px;
+		background: #1e1e1e;
+		color: #fff;
+		overflow: hidden;
+		border-bottom: 2px solid #770445;
+		border-bottom-right-radius: 15px;
+		.left{
+			width: 48%;
+			float: left;
+			.mid{
+				display: inline-block;
+				margin-left: 25px;
+			}
+			a{
+				font-size:0px;
+				display: inline-flex;
+				
+				img{
+					height: 100px;
+				}
+			}
+		}
+		.right{
+			width: 50%;
+			float: right;
+			text-align: right;
+			margin: 35px auto;
+		
+			form {
+				margin: 0 40px 0 25px;
+				display: inline-block;
+				vertical-align: middle;
+				padding: 14px 11px 14px 17px;
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				border-radius: 10px;
+				border: 1px solid #2a2929;
+				background: #121212;
+				
+				input {
+					outline: none;
+					border: none;
+					background: transparent;
+					font: 300 18px Alegreya Sans;
+					color: #63697d;
+					width: 400px;
+				}
+				button {
+					font-size: 0;
+					cursor: pointer;
+					background: #770445 url(images/search.png) no-repeat center;
+					width: 43px;
+					height: 43px;
+					display: inline-block;
+					vertical-align: middle;
+					-webkit-border-radius: 10px;
+					-moz-border-radius: 10px;
+					border-radius: 10px;
+					border: 0;
+				}
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,9 @@
+        <div class="movies" ng-repeat="movie in movies" >
+         	<div class="col-md-3">
+				<a href="#/{{$index}}" style="text-decoration: none">
+					<img class="img-rounded" ng-src="{{movie.image.medium}}" onerror="this.src='error.png'" style="height:292px"/>
+				  	<div style="font-size: 14px;">{{movie.name}} </div>
+				  	<div style="font-size: 10px;">Category: {{movie.genres[0]}}, {{movie.genres[1]}}</div>
+				 </a>
+			</div>
+        </div>

@@ -1,0 +1,55 @@
+h3 {
+    color:darkgrey;
+    margin-left:20px;
+    margin-top:20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+
+.rate-area {
+    float:left;
+    border-style: none;
+	padding: 0 15px;
+}
+
+.rate-area:not(:checked) > input {
+    position:absolute;
+    clip:rect(0,0,0,0);
+}
+
+.rate-area:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size: 320%;
+	line-height: 1.2;
+	color: #0b0b0b;
+	text-shadow: 1px 1px #3d3e3d;
+}
+
+.rate-area:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rate-area > input:checked ~ label {
+    color: #ffc404;
+}
+
+.rate-area:not(:checked) > label:hover,
+.rate-area:not(:checked) > label:hover ~ label {
+    color: #ffc404;
+    
+}
+
+.rate-area > input:checked + label:hover,
+.rate-area > input:checked + label:hover ~ label,
+.rate-area > input:checked ~ label:hover,
+.rate-area > input:checked ~ label:hover ~ label,
+.rate-area > label:hover ~ input:checked ~ label {
+    color: #ffc404;  
+    
+}
+

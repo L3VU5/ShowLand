@@ -1,0 +1,33 @@
+<div class="row">
+	<div class="col-md-3">
+	 	<img ng-src="{{movie.image.medium}}" onerror="this.src='error.png'" class="thumbnail"/>
+	</div>
+	<div class="col-md-8 mov">
+		<h2 class="title"> {{movie.name}}</h2>
+		<div style="font-size:11px; margin-bottom: 10px;">Runtime: <span>{{movie.runtime}} min</span> </div>
+		
+		<div class="rate">
+		<div class="average">Average: <span>{{movie.rating.average}}<span class="star-avg">★</span> </span> </div> 
+		<div>Your rating:</div>
+		<div class="stars">
+			<ul class="rate-area">
+			  <input type="radio" id="5-star" name="rating" value="5" /><label for="5-star" title="Awesome">5 stars</label>
+			  <input type="radio" id="4-star" name="rating" value="4" /><label for="4-star" title="Good">4 stars</label>
+			  <input type="radio" id="3-star" name="rating" value="3" /><label for="3-star" title="Average">3 stars</label>
+			  <input type="radio" id="2-star" name="rating" value="2" /><label for="2-star" title="Not Good">2 stars</label>
+			  <input type="radio" id="1-star" name="rating" value="1" /><label for="1-star" title="Bad">1 star</label>
+			</ul>
+		</div>
+		</div>
+		
+		<div>Premiered: <span>{{movie.premiered}}</span> </div>
+		<div>Status: <span>{{movie.status}}</span> </div>
+		<div>Country: <span>{{movie.network.country.name}}</span> </div>
+		<div>Summary:
+		<div><span>{{movie.summary}}</span></div></div>
+		
+		<div style="margin-top: 50px;">Category: <span>{{movie.genres[0]}}, {{movie.genres[1]}}</span> </div>
+	</div>
+</div>
+
+<a class="btn btn-warning col-md-2" href="#/" style="float: right">BACK</a>

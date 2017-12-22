@@ -1,0 +1,119 @@
+/* Scss Document */
+body {
+  background: #0b0b0b;
+  font-family: Raleway, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+  font-size: 14px; }
+  body a {
+    color: white;
+    text-decoration: none; }
+    body a:hover {
+      color: #b9b9b9; }
+  body .bgd {
+    width: 1200px;
+    margin: 50px auto;
+    background-color: #121212;
+    padding: 65px 37px;
+    border-radius: 15px; }
+    body .bgd .btn-warning {
+      background-color: #7d104e;
+      border-color: #30051e; }
+      body .bgd .btn-warning:hover {
+        background-color: #60093a; }
+    body .bgd img {
+      background-color: #333;
+      border: 1px solid #060606;
+	  margin: 0 auto;	  }
+    body .bgd .movies a {
+      display: inline-grid;
+      margin-bottom: 25px;
+      text-align: center; }
+    body .bgd .mov {
+      color: #bfbfbf; }
+      body .bgd .mov p {
+        color: #fff; }
+      body .bgd .mov div {
+        margin-bottom: 5px; }
+      body .bgd .mov .title {
+        color: #e8002d; }
+      body .bgd .mov span {
+        color: #fff; }
+      body .bgd .mov .rate {
+			position: absolute;
+			right: 0;
+			top: 0;
+			background: #1e1e1e;
+			border-radius:7px;
+			color:#fff;
+			padding: 10px 20px 0px 20px;
+	  }
+	  body .bgd .mov .rate .average{
+			font-size: 20px;
+	  }
+	  body .bgd .mov .rate .average .star-avg{
+			color: gold;
+			font-size: 30px;
+			position: relative;
+			top: 2px;
+			left: 1px;
+	  }
+  body .jumbotron {
+    padding: 10px 30px;
+    background: #1e1e1e;
+    color: #fff;
+    overflow: hidden;
+    border-bottom: 2px solid #770445;
+    border-bottom-right-radius: 15px; }
+    body .jumbotron .left {
+      width: 48%;
+      float: left; }
+      body .jumbotron .left .mid {
+        display: inline-block; 
+		margin-left: 20px;}
+      body .jumbotron .left a {
+        font-size: 0px;
+        display: inline-flex; }
+        body .jumbotron .left a img {
+          height: 100px; }
+    body .jumbotron .right {
+      width: 50%;
+      float: right;
+      text-align: right;
+      margin: 35px auto; }
+      body .jumbotron .right form {
+        margin: 0 40px 0 25px;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 14px 11px 14px 17px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        border: 1px solid #2a2929;
+        background: #121212; }
+        body .jumbotron .right form input {
+          outline: none;
+          border: none;
+          background: transparent;
+          font: 300 18px Alegreya Sans;
+          color: #63697d;
+          width: 400px; }
+        body .jumbotron .right form button {
+          font-size: 0;
+          cursor: pointer;
+          background: #770445 url(images/search.png) no-repeat center;
+          width: 43px;
+          height: 43px;
+          display: inline-block;
+          vertical-align: middle;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+          border: 0; }
+body > div.footer{
+	background: #121212;
+	vertical-align: middle;
+	color: #bfbfbf;
+	font-size: 14px;
+	padding: 55px 20px;
+	border-top: 2px solid #770445;
+}
+
